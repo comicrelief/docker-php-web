@@ -5,5 +5,5 @@ RUN a2ensite web web-ssl ; apt-get update ; \
   
 RUN docker-php-ext-install soap
 
-RUN curl -sL https://deb.nodesource.com/setup_6.x | bash - \
+RUN curl -sL https://deb.nodesource.com/setup_8.x | bash - \
 ; apt-get install -y nodejs ; npm install -g grunt-cli yarn
